@@ -1257,11 +1257,16 @@ blockquote.evidence-quote::before {
 
 /* --- PAGE TOGGLE SLIDER --- */
 .report-page {
-  display: none;
+  display: none !important;
 }
 
 .report-page.active {
-  display: block;
+  display: block !important;
+}
+
+/* Hide batch section-tab headers (skeleton uses section-heading instead) */
+.section-tab {
+  display: none !important;
 }
 
 .page-slider {
